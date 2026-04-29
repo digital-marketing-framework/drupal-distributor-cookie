@@ -1,0 +1,7 @@
+# Default global settings for Anyrel Distributor Cookie
+# These values are installed when the module is enabled
+
+defaultPath: '/'
+defaultDomain: ''
+defaultSecure: true
+defaultSameSite: 'Lax'

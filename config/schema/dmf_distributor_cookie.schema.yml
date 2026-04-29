@@ -1,0 +1,16 @@
+dmf_distributor_cookie.global_settings:
+  type: config_object
+  label: 'Anyrel Distributor Cookie - Global Settings'
+  mapping:
+    defaultPath:
+      type: string
+      label: 'Default Path'
+    defaultDomain:
+      type: string
+      label: 'Default Domain'
+    defaultSecure:
+      type: boolean
+      label: 'Default Secure'
+    defaultSameSite:
+      type: string
+      label: 'Default SameSite'

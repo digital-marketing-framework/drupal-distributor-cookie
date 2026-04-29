@@ -1,0 +1,10 @@
+services:
+  dmf_distributor_cookie.core_registry_update_event_subscriber:
+    class: Drupal\dmf_distributor_cookie\Registry\EventSubscriber\CoreRegistryUpdateEventSubscriber
+    tags:
+      - { name: event_subscriber }
+
+  dmf_distributor_cookie.distributor_registry_update_event_subscriber:
+    class: Drupal\dmf_distributor_cookie\Registry\EventSubscriber\DistributorRegistryUpdateEventSubscriber
+    tags:
+      - { name: event_subscriber }
